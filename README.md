@@ -3,7 +3,7 @@
 ## Requirements
 [PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
 ## Demo
-[Live Demo >>](https://ls1231.github.com/vue-preview/)
+[Live Demo >>](https://lipatoff.github.io/PhotoSwipe_custom_script/)
 ## Usage
 Base
 ```html
