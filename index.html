@@ -7,27 +7,51 @@
 	<title>PhotoSwipe custom script</title>
 
 	<link rel="stylesheet" href="photoswipe/photoswipe.css"> 
-	<link rel="stylesheet" href="photoswipe/default-skin/default-skin.css"> 
+    <link rel="stylesheet" href="photoswipe/default-skin/default-skin.css"> 
+    
+	<link rel="stylesheet" href="style.css"> 
     
     <style>
-        img{width: 200px;}
-        a{text-decoration: none;}
+        img{width: 300px}
+        .group{display: inline-block;border: 2px solid;padding: 10px}
     </style>
 </head>
 <body>
 
 <div>
-    <a href="https://source.unsplash.com/900x400/?sig=0" data-size="900x400">
-        <img src="https://source.unsplash.com/900x400/?sig=0" alt="Image caption" />
+    <h3>Example 1</h3>
+    <a href="https://source.unsplash.com/300x300/?sig=0" data-size="300x300">
+        <img src="https://source.unsplash.com/300x300/?sig=0" alt="Image caption" />
     </a>
-    <a href="https://source.unsplash.com/900x400/?sig=1" data-size="900x400">
-        <img src="https://source.unsplash.com/900x400/?sig=1" alt="Image caption" />
+    <a href="https://source.unsplash.com/300x300/?sig=1" data-size="300x300">
+        <img src="https://source.unsplash.com/300x300/?sig=1" alt="Image caption" />
     </a>
+</div>
+
+<div>
+    <h3>Example 2</h3>
+    <span class="group">
+        <a href="https://source.unsplash.com/300x300/?sig=0" data-size="300x300" data-pswp-uid="g1">
+            <img src="https://source.unsplash.com/300x300/?sig=0" alt="Image caption" />
+        </a>
+        <a href="https://source.unsplash.com/300x300/?sig=1" data-size="300x300" data-pswp-uid="g1">
+            <img src="https://source.unsplash.com/300x300/?sig=1" alt="Image caption" />
+        </a>
+    </span>
+    <span class="group">
+        <a href="https://source.unsplash.com/300x300/?sig=2" data-size="300x300" data-pswp-uid="g2">
+            <img src="https://source.unsplash.com/300x300/?sig=2" alt="Image caption" />
+        </a>
+        <a href="https://source.unsplash.com/300x300/?sig=3" data-size="300x300" data-pswp-uid="g2">
+            <img src="https://source.unsplash.com/300x300/?sig=3" alt="Image caption" />
+        </a>
+    </span>
 </div>
 
 
 <script src="photoswipe/photoswipe.min.js"></script> 
-<script src="photoswipe/photoswipe-ui-default.min.js"></script> 
+<script src="photoswipe/photoswipe-ui-default.min.js"></script>
+
 <script src="script.js"></script>
 </body>
 </html>

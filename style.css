@@ -1,0 +1,14 @@
+a[data-size]{
+	display: inline-block;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-tap-highlight-color: transparent;
+	text-decoration: none;
+}
+  
+a[data-size].touch{
+	box-shadow: 0 0 0 6px #fff;
+	border-radius: 5px;
+	position: relative;
+	z-index: 998;
+}
