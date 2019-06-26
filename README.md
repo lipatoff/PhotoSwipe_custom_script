@@ -3,7 +3,7 @@
 ## Requirements
 [PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
 ## Demo
-[Live Demo >>](https://lipatoff.github.io/PhotoSwipe_custom_script/)
+[Live Demo >>](https://lipatoff.github.io/photoswipe-custom-script/)
 ## Usage
 Base
 ```html
