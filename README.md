@@ -24,5 +24,5 @@ Ajax adding
 ```javascript
 newHtml = document.createElement('div');
 newHtml.innerHTML = /*data*/;
-pSwp(newHtml);
+pSwp(newHtml); 
 ```
