@@ -3,7 +3,7 @@ if (document.querySelector('a[data-size]')){
 	var himg__photo = document.createElement('div'),
 		imgs = [], uid = [],
 		//blurstyle=document.getElementById('blurswipe'),
-		touch = true, minforce = 0.17, himg_last = 0;
+		touch = true, minforce = 0.17, himg_last = 0; 
 
 	uid[0] = new Array(); uid[1] = new Array();
 
